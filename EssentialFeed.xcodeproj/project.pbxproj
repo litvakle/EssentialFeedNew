@@ -88,6 +88,7 @@
 		3A7FC16228B884EA00E3B7EA /* FeedImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FC16128B884EA00E3B7EA /* FeedImageCache.swift */; };
 		3A7FC19B28B9D00D00E3B7EA /* EssentialFeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FC19A28B9D00D00E3B7EA /* EssentialFeedSnapshotTests.swift */; };
 		3A7FC19D28B9D24D00E3B7EA /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FC19C28B9D24D00E3B7EA /* UIImage+TestHelpers.swift */; };
+		3AA8337828B9E3AD00B0B281 /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA8337728B9E3AD00B0B281 /* UITableView+HeaderSizing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +209,7 @@
 		3A7FC16128B884EA00E3B7EA /* FeedImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCache.swift; sourceTree = "<group>"; };
 		3A7FC19A28B9D00D00E3B7EA /* EssentialFeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedSnapshotTests.swift; sourceTree = "<group>"; };
 		3A7FC19C28B9D24D00E3B7EA /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
+		3AA8337728B9E3AD00B0B281 /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -470,6 +472,7 @@
 			isa = PBXGroup;
 			children = (
 				08B5EB4F22CE328100FE8683 /* UIView+Shimmering.swift */,
+				3AA8337728B9E3AD00B0B281 /* UITableView+HeaderSizing.swift */,
 				0822D0F423058078004B3345 /* UITableView+Dequeueing.swift */,
 				0822D0F6230581D2004B3345 /* UIImageView+Animations.swift */,
 				08A3F2BA232BA64700127C15 /* UIRefreshControl+Helpers.swift */,
@@ -890,6 +893,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA8337828B9E3AD00B0B281 /* UITableView+HeaderSizing.swift in Sources */,
 				08A3F2B2232AA1C200127C15 /* ErrorView.swift in Sources */,
 				08A3F2BB232BA64700127C15 /* UIRefreshControl+Helpers.swift in Sources */,
 				08B5EB5022CE328100FE8683 /* UIView+Shimmering.swift in Sources */,
