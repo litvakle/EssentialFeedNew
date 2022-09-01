@@ -45,7 +45,7 @@ public final class LoadResourcePresenter<Resource, View: ResourceView> {
             resourceView.display(try mapper(resource))
             loadingView.display(ResourceLoadingViewModel(isLoading: false))
         } catch {
-            //didFinishLoading(with: error)
+            didFinishLoading(with: error)
         }
     }
     

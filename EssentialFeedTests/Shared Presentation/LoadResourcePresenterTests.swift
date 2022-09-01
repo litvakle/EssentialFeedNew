@@ -57,7 +57,7 @@ class LoadResourcePresenterTests: XCTestCase {
             throw(anyNSError())
         })
         
-        sut.didFinishLoading(with: anyNSError())
+        sut.didFinishLoading(with: "resource ")
         
         XCTAssertEqual(view.messages, [
             .display(errorMessage: localized("GENERIC_CONNECTION_ERROR")),
