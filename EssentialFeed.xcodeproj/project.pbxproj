@@ -117,6 +117,9 @@
 		3ADFDAB028C2353800385A39 /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADFDAAE28C2353800385A39 /* IMAGE_COMMENTS_light.png */; };
 		3ADFDAB228C2361500385A39 /* ImageCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADFDAB128C2361500385A39 /* ImageCommentCell.swift */; };
 		3ADFDAB428C3345200385A39 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADFDAB328C3345200385A39 /* CellController.swift */; };
+		3ADFDAB628C48BEA00385A39 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADFDAB528C48BEA00385A39 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */; };
+		3ADFDAB828C494FB00385A39 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADFDAB728C494FB00385A39 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */; };
+		3ADFDABA28C495E700385A39 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADFDAB928C495E700385A39 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,6 +273,9 @@
 		3ADFDAAE28C2353800385A39 /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
 		3ADFDAB128C2361500385A39 /* ImageCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentCell.swift; sourceTree = "<group>"; };
 		3ADFDAB328C3345200385A39 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
+		3ADFDAB528C48BEA00385A39 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
+		3ADFDAB728C494FB00385A39 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
+		3ADFDAB928C495E700385A39 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_CONTENT_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -785,6 +791,7 @@
 		3AA833C328C222CC00B0B281 /* snapshots */ = {
 			isa = PBXGroup;
 			children = (
+				3ADFDAB928C495E700385A39 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */,
 				3AA833C528C222CC00B0B281 /* FEED_WITH_FAILED_IMAGE_LOADING_dark.png */,
 				3AA833C628C222CC00B0B281 /* FEED_WITH_CONTENT_dark.png */,
 				3AA833C828C222CC00B0B281 /* FEED_WITH_CONTENT_light.png */,
@@ -808,6 +815,7 @@
 			children = (
 				3AA833C728C222CC00B0B281 /* EMPTY_LIST_light.png */,
 				3AA833CB28C222CC00B0B281 /* EMPTY_LIST_dark.png */,
+				3ADFDAB528C48BEA00385A39 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */,
 				3AA833C428C222CC00B0B281 /* LIST_WITH_ERROR_MESSAGE_dark.png */,
 				3AA833CA28C222CC00B0B281 /* LIST_WITH_ERROR_MESSAGE_light.png */,
 			);
@@ -852,6 +860,7 @@
 		3ADFDAAC28C2353800385A39 /* snapshots */ = {
 			isa = PBXGroup;
 			children = (
+				3ADFDAB728C494FB00385A39 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */,
 				3ADFDAAD28C2353800385A39 /* IMAGE_COMMENTS_dark.png */,
 				3ADFDAAE28C2353800385A39 /* IMAGE_COMMENTS_light.png */,
 			);
@@ -1105,7 +1114,10 @@
 				3AA833D028C222CC00B0B281 /* FEED_WITH_CONTENT_light.png in Resources */,
 				3AA833D228C222CC00B0B281 /* LIST_WITH_ERROR_MESSAGE_light.png in Resources */,
 				3AA833CD28C222CC00B0B281 /* FEED_WITH_FAILED_IMAGE_LOADING_dark.png in Resources */,
+				3ADFDAB828C494FB00385A39 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png in Resources */,
 				3ADFDAAF28C2353800385A39 /* IMAGE_COMMENTS_dark.png in Resources */,
+				3ADFDAB628C48BEA00385A39 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png in Resources */,
+				3ADFDABA28C495E700385A39 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
